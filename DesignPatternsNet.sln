@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsNet", "DesignPatternsNet\DesignPatternsNet.csproj", "{649F7EDB-810F-4E4C-8A99-B4F9CC671E58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{61AB1A3C-0E1A-4F8D-8F86-07C03437C2F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryPattern\FactoryMethod.csproj", "{90880A24-ABFD-4DAC-A00B-F07EDA61B955}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{61AB1A3C-0E1A-4F8D-8F86-07C03437C2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61AB1A3C-0E1A-4F8D-8F86-07C03437C2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61AB1A3C-0E1A-4F8D-8F86-07C03437C2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90880A24-ABFD-4DAC-A00B-F07EDA61B955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90880A24-ABFD-4DAC-A00B-F07EDA61B955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90880A24-ABFD-4DAC-A00B-F07EDA61B955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90880A24-ABFD-4DAC-A00B-F07EDA61B955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
