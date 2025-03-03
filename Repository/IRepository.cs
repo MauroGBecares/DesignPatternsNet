@@ -15,6 +15,7 @@ namespace Repository
         void Delete(int id);
 
         // SaveChanges: Guarda los datos en la base de datos pero se usa en entity framework o otros ORM que lo requieran
+        // Luego en UnitOfWork se implementa este método para guardar los datos en la base de datos integrando todos los repositorios.
         //void SaveChanges();
     }
 }

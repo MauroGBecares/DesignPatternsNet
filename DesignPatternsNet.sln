@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency Injection", "Dep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{AD7EEC0D-AD81-4E4D-A987-BEDB80A91004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork", "UnitOfWork\UnitOfWork.csproj", "{346EB5C5-2CD0-48EB-929B-612AFFC3E0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{8A95E126-CEBB-4718-817D-69B6C0CABA64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{AD7EEC0D-AD81-4E4D-A987-BEDB80A91004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7EEC0D-AD81-4E4D-A987-BEDB80A91004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD7EEC0D-AD81-4E4D-A987-BEDB80A91004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346EB5C5-2CD0-48EB-929B-612AFFC3E0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346EB5C5-2CD0-48EB-929B-612AFFC3E0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346EB5C5-2CD0-48EB-929B-612AFFC3E0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346EB5C5-2CD0-48EB-929B-612AFFC3E0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A95E126-CEBB-4718-817D-69B6C0CABA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A95E126-CEBB-4718-817D-69B6C0CABA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A95E126-CEBB-4718-817D-69B6C0CABA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A95E126-CEBB-4718-817D-69B6C0CABA64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
