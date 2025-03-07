@@ -6,6 +6,8 @@ using Repository;
 using UnitOfWork;
 using UnitOfWork.Models;
 using Strategy;
+using Builder;
+using State;
 
 // PATRONES DE DISEÑO
 
@@ -123,3 +125,32 @@ context.SaveReport();
 // Aca cambio el comportamiento de la clase en tiempo de ejecución y ahora guardara un Excel del reporte tambien.
 context.Strategy = new SaveReportExcel();
 context.SaveReport();
+
+// BUILDER
+// Es un patrón de diseño creacional que nos permite construir objetos complejos paso a paso.
+// El patrón nos permite producir diferentes tipos y representaciones de un objeto usando el mismo código de construcción.
+
+var builder = new PrepareComputerConcreteBuilder();
+var director = new Director(builder);
+director.BuildGamingComputer();
+var computer = builder.GetComputer();
+Console.WriteLine(computer.Result);
+
+// STATE
+// Es un patrón de diseño de comportamiento que permite a un objeto cambiar su comportamiento cuando su estado interno cambia.
+// Con esto, se puede cambiar el comportamiento de un objeto sin cambiar su clase.
+// Esto es útil cuando se tiene un objeto que puede cambiar de estado en tiempo de ejecución.
+
+UserContext userContext = new UserContext();
+Console.WriteLine(userContext.State);
+
+// Para que se bloquee
+userContext.Request("123", "123");
+userContext.Request("123", "123");
+userContext.Request("123", "123");
+Console.WriteLine(userContext.State);
+
+// Para loguearse
+userContext.Request("admin", "admin");
+Console.WriteLine(userContext.State);
+

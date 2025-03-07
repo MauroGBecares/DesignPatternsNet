@@ -8,10 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\Dependency Injection\Dependency Injection.csproj" />
     <ProjectReference Include="..\FactoryPattern\FactoryMethod.csproj" />
     <ProjectReference Include="..\Repository\Repository.csproj" />
     <ProjectReference Include="..\Singleton\Singleton.csproj" />
+    <ProjectReference Include="..\State\State.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
     <ProjectReference Include="..\UnitOfWork\UnitOfWork.csproj" />
   </ItemGroup>

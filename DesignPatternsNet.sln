@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork", "UnitOfWork\Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{8A95E126-CEBB-4718-817D-69B6C0CABA64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{7D960EBB-4A84-4EE4-B27B-C4D659A1E184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{398125F8-DAAC-44F9-8301-81E26E566955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{8A95E126-CEBB-4718-817D-69B6C0CABA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A95E126-CEBB-4718-817D-69B6C0CABA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A95E126-CEBB-4718-817D-69B6C0CABA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D960EBB-4A84-4EE4-B27B-C4D659A1E184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D960EBB-4A84-4EE4-B27B-C4D659A1E184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D960EBB-4A84-4EE4-B27B-C4D659A1E184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D960EBB-4A84-4EE4-B27B-C4D659A1E184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398125F8-DAAC-44F9-8301-81E26E566955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398125F8-DAAC-44F9-8301-81E26E566955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398125F8-DAAC-44F9-8301-81E26E566955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398125F8-DAAC-44F9-8301-81E26E566955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
